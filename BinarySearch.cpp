@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int binary(int arr[], int size, int element)		//function to implement binary search
+int binary(int arr[], int size, int element)		//function to implement binary search algorithm
 {
 	int low = 0;		 // Initialize low to the first index of the array.
 	int high = size - 1; // Initialize high to the last index of the array.
